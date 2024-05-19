@@ -158,7 +158,7 @@ const AddLand: NextPage = () => {
                             <FileUpload
                               id="productimage"
                               name="productimage"
-                              label="Proof of ownership"
+                              label="Proof of identity"
                               onChange={(e: any) => {
                                 const image = URL.createObjectURL(
                                   e.target.files[0]
