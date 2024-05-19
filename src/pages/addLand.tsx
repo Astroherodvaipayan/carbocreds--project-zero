@@ -87,7 +87,7 @@ const AddLand: NextPage = () => {
           <div className="flex flex-col w-full text-center">
             <div className="flex justify-center w-full py-4 overflow-x-hidden overflow-y-auto md:inset-0 md:h-full">
               <div className="relative w-full h-full md:h-auto">
-                <div className="relative bg-white rounded-lg shadow bg-opacity-20 dark:bg-green-200 dark:bg-opacity-20">
+                <div className="relative bg-black rounded-lg shadow bg-opacity-20 dark:bg-green-200 dark:bg-opacity-20">
                   <div className="px-6 py-6 lg:px-8">
                     <form className="space-y-6">
                       <div className="flex flex-col md:flex-row md:space-x-5">

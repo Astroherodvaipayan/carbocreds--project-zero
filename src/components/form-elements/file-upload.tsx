@@ -21,7 +21,7 @@ const FileUpload = ({
 }: FileUploadProps) => {
   return (
     <div className="flex flex-col">
-      <FormLabel htmlFor={id} className="text-gray-700 dark:text-white">
+      <FormLabel htmlFor={id} className="text-gray-700 dark:text-black">
         {label}
       </FormLabel>
       <Button

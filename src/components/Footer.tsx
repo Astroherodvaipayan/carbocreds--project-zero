@@ -16,7 +16,7 @@ const Footer = () => {
             <a
               href="https://github.com/"
               target="_blank"
-              className="text-gray-50 hover:text-white"
+              className="text-gray-50 hover:text-black"
               rel="noreferrer"
             >
               <AiFillGithub size={25} />

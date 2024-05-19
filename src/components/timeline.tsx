@@ -12,7 +12,7 @@ const TimelineItem = ({ title, time: subtitle }: TimelineProps) => {
         <h2 className="text-[#00bdff]">{title}</h2>
       </div>
       <div className="left_content">
-        <h3 className="text-gray-700 dark:text-white">{subtitle}</h3>
+        <h3 className="text-gray-700 dark:text-black">{subtitle}</h3>
       </div>
     </li>
   );

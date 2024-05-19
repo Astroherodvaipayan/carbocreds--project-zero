@@ -22,7 +22,7 @@ const Input = ({
 }: InputProps) => {
   return (
     <div>
-      <FormLabel htmlFor={id} className="text-gray-700 dark:text-white">
+      <FormLabel htmlFor={id} className="text-gray-700 dark:text-black">
         {label}
       </FormLabel>
       <ChakraInput
@@ -30,7 +30,7 @@ const Input = ({
         name={name}
         onChange={onChange}
         variant="outline"
-        className="mt-0 text-gray-800 shadow-sm placeholder:text-gray-500 dark:text-white"
+        className="mt-0 text-gray-800 shadow-sm placeholder:text-gray-500 dark:text-black"
         borderColor={"gray.500"}
         _hover={{
           borderColor: "gray.700"

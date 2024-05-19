@@ -30,7 +30,7 @@ export default function ProductCard(props: ProductProps) {
         my={5}
         mx={[0, 5]}
         overflow={"hidden"}
-        bg="white"
+        bg="black"
         border={"1px"}
         borderColor="black"
         boxShadow={useColorModeValue("6px 6px 0 black", "6px 6px 0 cyan")}
@@ -51,7 +51,7 @@ export default function ProductCard(props: ProductProps) {
             display={"inline-block"}
             px={2}
             py={1}
-            color="white"
+            color="black"
             mb={2}
           >
             <Text fontSize={"xs"} fontWeight="medium">

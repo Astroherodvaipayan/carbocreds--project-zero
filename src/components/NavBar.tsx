@@ -27,7 +27,7 @@ const Header: React.FC = () => {
       <nav className="fixed z-10 w-full mx-auto bg-green-300 bg-opacity-80 border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-black dark:bg-opacity-80 drop-shadow-lg dark:drop-shadow-[0_10px_25px_rgba(255,255,255,0.25)]">
         <div className="max-w-[1080px] container flex flex-wrap justify-between items-center mx-auto">
           <Link href="/" className="flex items-center flex-1">
-            <span className="flex flex-row items-center self-center text-xl font-bold whitespace-nowrap text-[#9504ff] hover:text-[#a137df] dark:text-[#c26fff]">
+            <span className="flex flex-row items-center self-center text-xl font-bold blackspace-nowrap text-[#9504ff] hover:text-[#a137df] dark:text-[#c26fff]">
               <Image
                 src={require("public/Screenshot 2023-06-19 at 5.17.14 PM.png")}
                 width="50"
@@ -62,9 +62,9 @@ const Header: React.FC = () => {
                   href="/"
                   className={`${
                     pathname === "/"
-                      ? "text-[#a137df] dark:text-white"
+                      ? "text-[#a137df] dark:text-black"
                       : "text-gray-700"
-                  } block py-2 pr-4 pl-3 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#9504ff] md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700`}
+                  } block py-2 pr-4 pl-3 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#9504ff] md:p-0 md:dark:hover:text-black dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-black md:dark:hover:bg-transparent dark:border-gray-700`}
                   aria-current="page"
                 >
                   <b>Home</b>
@@ -75,9 +75,9 @@ const Header: React.FC = () => {
                   href="/explore"
                   className={`${
                     pathname === "/explore"
-                      ? "text-[#a137df] dark:text-white"
+                      ? "text-[#a137df] dark:text-black"
                       : "text-gray-700"
-                  } block py-2 pr-4 pl-3 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#9504ff] md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700`}
+                  } block py-2 pr-4 pl-3 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#9504ff] md:p-0 md:dark:hover:text-black dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-black md:dark:hover:bg-transparent dark:border-gray-700`}
                   aria-current="page"
                 >
                   <b>Explore</b>
@@ -90,15 +90,15 @@ const Header: React.FC = () => {
                       href="#"
                       className={`${
                         pathname === "#"
-                          ? "text-[#a137df] dark:text-white"
+                          ? "text-[#a137df] dark:text-black"
                           : "text-gray-700"
-                      } block py-2 pr-4 pl-3 border-b border-gray-100 hover:bg-green-200 md:hover:bg-transparent md:border-0 md:hover:text-[#9504ff] md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700`}
+                      } block py-2 pr-4 pl-3 border-b border-gray-100 hover:bg-green-200 md:hover:bg-transparent md:border-0 md:hover:text-[#9504ff] md:p-0 md:dark:hover:text-black dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-black md:dark:hover:bg-transparent dark:border-gray-700`}
                       aria-current="page"
                     >
                       <b>Customer and Sequester</b>
                     </Link>
                   </PopoverTrigger>
-                  <PopoverContent className="box-border p-4 bg-blue-100 shadow-lg bg-opacity-80 h-25 w-35 dark:bg-black/40 dark:bg-opacity-80 dark:text-white/80 rounded-xl border-1 min-w-sm">
+                  <PopoverContent className="box-border p-4 bg-blue-100 shadow-lg bg-opacity-80 h-25 w-35 dark:bg-black/40 dark:bg-opacity-80 dark:text-black/80 rounded-xl border-1 min-w-sm">
                     <Link
                       href="/addLand"
                       className="group display-block p-2 rounded-md hover:bg-green-200 hover:text-[#a13bf7]"
@@ -137,9 +137,9 @@ const Header: React.FC = () => {
                   href="/landhistory"
                   className={`${
                     pathname === "/producthistory"
-                      ? "text-[#a137df] dark:text-white"
+                      ? "text-[#a137df] dark:text-black"
                       : "text-gray-700"
-                  } block py-2 pr-4 pl-3 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#9504ff] md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-green-200 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700`}
+                  } block py-2 pr-4 pl-3 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#9504ff] md:p-0 md:dark:hover:text-black dark:text-gray-400 dark:hover:bg-green-200 dark:hover:text-black md:dark:hover:bg-transparent dark:border-gray-700`}
                   aria-current="page"
                 >
                   <b>Carbon Credits transaction history</b>

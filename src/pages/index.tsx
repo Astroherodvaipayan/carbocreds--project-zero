@@ -16,7 +16,7 @@ interface FeatureCardProps {
 
 const FeatureCard = ({ title, desc, icon }: FeatureCardProps) => {
   return (
-    <div className="relative p-5 rounded-lg bg-white/40 bg-opacity-20 dark:bg-green-200 dark:bg-opacity-30">
+    <div className="relative p-5 rounded-lg bg-black/40 bg-opacity-20 dark:bg-green-200 dark:bg-opacity-30">
       <dt className="flex flex-col items-center md:items-start">
         <div className="flex items-center justify-center h-12 w-12 rounded-md bg-[#90EE90] dark:bg-[#90EE90] text-black">!!
           {icon}
@@ -62,7 +62,7 @@ const Home: NextPage = () => {
               <div>
                 <Link
                   href="/explore"
-                  className="w-full md:w-[70%] lg:w-full flex items-center justify-center px-8 py-3 border-0 border-transparent text-base font-medium rounded-3xl text-white bg-gradient-to-r from-[#9ACD32] to-[#AEFFAE] hover:drop-shadow-[0_3px_5px_#7d7d7d] dark:hover:drop-shadow-[0_3px_5px_#8ce1ff] md:py-2 md:text-lg md:px-8"
+                  className="w-full md:w-[70%] lg:w-full flex items-center justify-center px-8 py-3 border-0 border-transparent text-base font-medium rounded-3xl text-black bg-gradient-to-r from-[#9ACD32] to-[#AEFFAE] hover:drop-shadow-[0_3px_5px_#7d7d7d] dark:hover:drop-shadow-[0_3px_5px_#8ce1ff] md:py-2 md:text-lg md:px-8"
                 >
                   Explore
                 </Link>
