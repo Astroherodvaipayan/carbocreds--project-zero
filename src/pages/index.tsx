@@ -52,7 +52,7 @@ const Home: NextPage = () => {
                   CarboCred
               </span>
               <span className="block font-semibold text-black dark:text-[#e99aff] font-medium text-2xl">
-                The bitcoin for Carbon Credits
+                credit sharing reimagined for the future of social good.
               </span>
             </h1>
             <p className="mt-3 text-base text-gray-600 dark:text-black sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
