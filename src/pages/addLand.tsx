@@ -95,9 +95,9 @@ const AddLand: NextPage = () => {
                           <Input
                             id="id"
                             name="id"
-                            label="Company International ID"
+                            label="Aadhaar ID"
                             type="text"
-                            placeholder="Enter Your Company ID"
+                            placeholder="Enter Your aadhaar ID"
                             onChange={(e) => {
                               handleData(e);
                             }}
@@ -126,7 +126,7 @@ const AddLand: NextPage = () => {
                           <Input
                             id="dimensions"
                             name="dimensions"
-                            label="Company Project"
+                            label="Project name"
                             placeholder="Enter project details"
                             onChange={(e) => {
                               handleData(e);
