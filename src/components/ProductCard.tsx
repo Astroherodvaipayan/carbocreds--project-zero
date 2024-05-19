@@ -30,7 +30,7 @@ export default function ProductCard(props: ProductProps) {
         my={5}
         mx={[0, 5]}
         overflow={"hidden"}
-        bg="black"
+        bg="white"
         border={"1px"}
         borderColor="black"
         boxShadow={useColorModeValue("6px 6px 0 black", "6px 6px 0 cyan")}
